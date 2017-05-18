@@ -1,5 +1,7 @@
 gcc=cc
 
+all:popen1 popen2 popen3
+
 popen1:popen1.o
 	cc -o popen1 popen1.o
 popen2:popen2.o
